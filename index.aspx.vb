@@ -18,4 +18,12 @@ Partial Class index
         'Display the results in the results Label Web Control
         resultLabel.Text = "Your salary is $" & salary.ToString("#,####.##")
     End Sub
+
+    Protected Sub ClearButton_Click(sender As Object, e As System.EventArgs) Handles ClearButton.Click
+        hourlyWageTextBox.Text = ""
+        noOfHoursTextBox.Text = ""
+        preTaxDeductionsTextBox.Text = ""
+        afterTaxDuductionsTextBox.Text = ""
+        resultLabel.Text = ""
+    End Sub
 End Class
