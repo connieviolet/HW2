@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Salary Calculation</title>
+    <link rel="stylesheet" type="text/css" href="./connie.css" /> 
 </head>
 <body>
     <form id="form1" runat="server">
@@ -38,7 +39,7 @@
         <asp:Button ID="CalculateButton" runat="server" Text="Calculate" />
         <br />
         <br />
-        <asp:Label ID="resultLabel" runat="server" BorderStyle="None" Width="125px"></asp:Label>
+        <asp:Label ID="resultLabel" runat="server" BorderStyle="None" Width="200px"></asp:Label>
         <br />
         <br />
         <asp:Button ID="ClearButton" runat="server" Text="Clear" />
